@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: #0D0D0D;
+    --peach-primary: #FFD2A4;
+    --white: #FFFFFF;
+    --black-primary: #161722;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header nav {
+    background-color: var(--black);
+}
+
+header .navbar-nav {
+    gap: 48px;
+    margin-left: 128px;
+}
+
+header .nav-link {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+header .nav-link:hover {
+    color: var(--white);
+}
+
+header .btn-primary {
+    padding: 20px 48px;
+    border-radius: 12px;
+    background-color: var(--peach-primary);
+    color: var(--black-primary);
+    border: none;
+    text-transform: uppercase;
+}
+
+
+/* Banner Start */
+#banner {
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 128px 0;
+}
+
+#banner h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#banner h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1%;
+    max-width: 592px;
+    margin-bottom: 32px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#banner .btn-primary {
+    padding: 20px 48px;
+    border-radius: 12px;
+    background-color: var(--peach-primary);
+    color: var(--black-primary);
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+#banner p {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 36px;
+    max-width: 308px;
+}
+
+#banner p::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    left: -36px;
+    top: 12px;
+    background-color: var(--peach-primary);
+}
+
+/* Banner End */
+
+/* Relevant start */
+#relevant {
+    margin-top: 128px;
+}
+
+#relevant h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-primary);
+}
+
+#relevant h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 16;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-primary);
+    letter-spacing: -1%;
+}
+
+#relevant .row {
+    margin-top: 64px;
+}
+
+#relevant .relevant-item {
+    padding: 80px;
+    border-bottom: 16px solid var(--peach-primary);
+    background-color: #FFF5EB;
+}
+
+#relevant .relevant-item h3 {
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -1%;
+    text-transform: uppercase;
+    color: var(--black-primary);
+}
+
+#relevant .relevant-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black-primary);
+}
+
+/* Relevant end */
+
+/* Compassion start */
+#compassion {
+    margin-top: 128px;
+}
+
+#compassion h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-primary);
+}
+
+#compassion h2 {
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1%;
+    color: var(--black-primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#compassion p {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black-primary);
+    max-width: 846px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#compassion .btn-primary {
+    padding: 20px 48px;
+    border-radius: 12px;
+    background-color: var(--peach-primary);
+    color: var(--black-primary);
+    border: none;
+    text-transform: uppercase;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -16px;
+    display: block;
+}
+
+#compassion .compassion-image-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#compassion .compassion-image-container img {
+    width: 100%;
+}
+
+#compassion .compassion-image-container div:nth-of-type(2) {
+    margin-top: 64px;
+}
+
+#compassion .compassion-last-part h4 {
+    margin-top: 64px;
+}
+
+#compassion .compassion-last-part h3 {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -1%;
+    color: var(--black-primary);
+    text-transform: uppercase;
+}
+
+#compassion .compassion-last-part p {
+    margin-top: 16px;
+    max-width: 512px;
+}
+
+#compassion .compassion-last-part a {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black-primary);
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+#compassion .compassion-last-part a img {
+    width: 18px;
+    height: 10px;
+}
+
+/* Compassion end */
+
+/* benefits start */
+#benefits {
+    background-color: #F5F2F0;
+    padding: 128px 0;
+}
+
+#benefits h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 24%;
+    color: var(--black-primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#benefits h2 {
+    margin: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1%;
+    color: var(--black-primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#benefits .row {
+    margin-top: 64px;
+}
+
+#benefits .row .item {
+    height: 384px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#benefits .row .item1 {
+    background-image: url('../images/benefits_1.png');
+}
+
+#benefits .row .item2 {
+    background-image: url('../images/benefits_2.png');
+}
+
+#benefits .row .item3 {
+    background-image: url('../images/benefits_3.png');
+}
+
+#benefits .row .item4 {
+    background-image: url('../images/benefits_4.png');
+}
+
+#benefits .row .item h3 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -1%;
+    color: var(--white);
+}
+
+#benefits .row .item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: -43%;
+    transition: 0.4s;
+}
+
+#benefits .row .item:hover p{
+    margin-bottom: 0;
+}
+
+/* benefits end */
+
+/* sermon start */
+/* sermon end */
+
+/* serve start */
+/* serve end */
+
+/* blogs start */
+/* blogs end */
+
+/* blogs start */
+/* footer end */
