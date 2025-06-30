@@ -282,13 +282,14 @@ header .btn-primary {
 }
 
 #benefits h2 {
-    margin: 20px;
+    margin: 20px auto 0 auto;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: -1%;
     color: var(--black-primary);
     text-align: center;
     text-transform: uppercase;
+    max-width: 440px;
 }
 
 #benefits .row {
@@ -339,13 +340,39 @@ header .btn-primary {
     transition: 0.4s;
 }
 
-#benefits .row .item:hover p{
+#benefits .row .item:hover p {
     margin-bottom: 0;
 }
 
 /* benefits end */
 
 /* sermon start */
+#sermon {
+    padding: 128px 0;
+}
+
+#sermon h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-primary);
+}
+
+#sermon h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1%;
+    color: var(--black-primary);
+    max-width: 554px;
+    margin: 16px auto 0 auto;
+}
+
+#sermon .sermon-text-container {}
+
 /* sermon end */
 
 /* serve start */
