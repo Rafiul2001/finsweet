@@ -189,13 +189,388 @@
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    body {
-        background-color: rgb(166, 255, 22);
+    header .navbar-nav {
+        gap: 4px;
+        margin-left: 20px;
+    }
+
+    header .btn-primary {
+        padding: 8px 15px;
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        background-color: var(--peach-primary);
+    }
+
+    #banner {
+        padding: 48px 0;
+    }
+
+    #banner h1 {
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 8px;
+    }
+
+    #banner .btn-primary {
+        padding: 8px 28px;
+        border-radius: 4px;
+        margin-bottom: 14px;
+    }
+
+    #relevant {
+        margin-top: 40px;
+    }
+
+    #relevant h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #relevant .relevant-item {
+        padding: 14px;
+    }
+
+    #relevant .row {
+        margin-top: 30px;
+        row-gap: 24px;
+    }
+
+    #relevant .relevant-item h3 {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    #compassion h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #compassion {
+        margin-top: 40px;
+    }
+
+    #compassion .btn-primary {
+        padding: 8px 30px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #compassion .compassion-image-container {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2%;
+    }
+
+    #compassion .compassion-image-container div {
+        width: 49%;
+    }
+
+    #compassion .compassion-image-container div:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    #compassion .compassion-last-part h3 {
+        font-size: 22px;
+        line-height: 13px;
+    }
+
+    #benefits h2 {
+        margin: 4px auto 0 auto;
+        font-size: 22px;
+    }
+
+    #benefits {
+        padding: 30px 0;
+    }
+
+    #benefits .row .item p {
+        margin-bottom: 0;
+    }
+
+    #benefits .row {
+        margin-top: 30px;
+        row-gap: 24px;
+    }
+
+    #sermon {
+        padding: 30px 0;
+    }
+
+    #sermon h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #sermon .sermon-text-container {
+        padding: 30px 16px;
+    }
+
+    #sermon .sermon-text-container .top-right-text {
+        top: -10px;
+        right: 11px;
+    }
+
+    #sermon a p {
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    #serve .serve-content-wrapper .serve-content h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #serve .serve-content-wrapper {
+        padding: 15px 18px;
+    }
+
+    #serve {
+        padding: 55px 0;
+    }
+
+    #blog {
+        padding: 30px 0;
+    }
+
+    #blog h2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    #blog .blog-content-wrapper {
+        row-gap: 24px;
+    }
+
+    footer .content4 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    footer .content4 form input {
+        padding: 8px;
+    }
+
+    footer .content4 form .btn-primary {
+        padding: 11px 25px;
+    }
+
+    footer .content4 form {
+        margin-top: 15px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+
+    footer .row {
+        gap: 24px;
+    }
+
+    footer .content2 ul {
+        margin-top: 5px;
+        gap: 10px;
+    }
+
+    footer .content3 ul {
+        margin-top: 5px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    body {
-        background-color: rgb(0, 183, 255);
+@media (min-width: 768px) and (max-width: 1280px) {
+    header .navbar-nav {
+        gap: 4px;
+        margin-left: 20px;
+    }
+
+    header .btn-primary {
+        padding: 8px 15px;
+        border-radius: 4px;
+    }
+
+    .navbar-toggler {
+        background-color: var(--peach-primary);
+    }
+
+    #banner {
+        padding: 48px 0;
+    }
+
+    #banner h1 {
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 8px;
+    }
+
+    #banner .btn-primary {
+        padding: 8px 28px;
+        border-radius: 4px;
+        margin-bottom: 14px;
+    }
+
+    #relevant {
+        margin-top: 40px;
+    }
+
+    #relevant h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #relevant .relevant-item {
+        padding: 14px;
+    }
+
+    #relevant .row {
+        margin-top: 30px;
+        row-gap: 24px;
+    }
+
+    #relevant .relevant-item h3 {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    #compassion h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #compassion {
+        margin-top: 40px;
+    }
+
+    #compassion .btn-primary {
+        padding: 8px 30px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #compassion .compassion-image-container {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3%;
+    }
+
+    #compassion .compassion-image-container div {
+        width: 30%;
+    }
+
+    #compassion .compassion-image-container div:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    #compassion .compassion-last-part h3 {
+        font-size: 22px;
+        line-height: 13px;
+    }
+
+    #benefits h2 {
+        margin: 4px auto 0 auto;
+        font-size: 22px;
+    }
+
+    #benefits {
+        padding: 30px 0;
+    }
+
+    #benefits .row .item p {
+        margin-bottom: 0;
+    }
+
+    #benefits .row {
+        margin-top: 30px;
+        row-gap: 24px;
+    }
+
+    #sermon {
+        padding: 30px 0;
+    }
+
+    #sermon h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #sermon .sermon-text-container {
+        padding: 30px 16px;
+    }
+
+    #sermon .sermon-text-container .top-right-text {
+        top: -10px;
+        right: 11px;
+    }
+
+    #sermon a p {
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    #serve .serve-content-wrapper .serve-content h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #serve .serve-content-wrapper {
+        padding: 15px 18px;
+    }
+
+    #serve {
+        padding: 55px 0;
+    }
+
+    #blog {
+        padding: 30px 0;
+    }
+
+    #blog h2 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    #blog .blog-content-wrapper {
+        row-gap: 24px;
+    }
+
+    footer .content4 h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    footer .content4 form input {
+        padding: 8px;
+    }
+
+    footer .content4 form .btn-primary {
+        padding: 11px 25px;
+    }
+
+    footer .content4 form {
+        margin-top: 15px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+
+    footer .row {
+        row-gap: 24px;
+    }
+
+    footer .content2 ul {
+        margin-top: 5px;
+        gap: 10px;
+    }
+
+    footer .content3 ul {
+        margin-top: 5px;
     }
 }
